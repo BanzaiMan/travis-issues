@@ -1,0 +1,11 @@
+{
+    "name": "jaymecd/travis-issues",
+    "description": "travis issues",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "require": {
+        "php": "^5.5.14 || ^7.0.8",
+        "psr/log": "^1.0",
+        "symfony/framework-bundle": "^2.7 || ^3.0"
+    }
+}
