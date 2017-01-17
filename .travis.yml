@@ -24,8 +24,7 @@ before_install:
 
 install:
   - travis_retry composer update -n -o --no-progress ${COMPOSER_FLAGS}
-  - composer info -D > info.txt
-  - cat info.txt
-
+  - composer info -D | od -x -t a
+  
 script:
   - true
